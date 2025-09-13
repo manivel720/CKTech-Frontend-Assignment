@@ -1,0 +1,14 @@
+.employee-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 600px) {
+    .employee-card {
+        flex-direction: column;
+    }
+}
